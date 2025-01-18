@@ -50,7 +50,7 @@ const VisiterLayout = ({ children }: VisiterLayoutProps) => {
       <AppBar color="primary" position="fixed" open={false}>
         <Toolbar>
           <Box mt={1} flexGrow={1}>
-            <img width={150} src="/logo/logo_gold_white.png" />
+            <img width={150} src="/logo/skinska-logo.avif" />
           </Box>
           {/* {visitCount && <Box>Visit Count: {visitCount}</Box>} */}
         </Toolbar>

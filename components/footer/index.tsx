@@ -58,7 +58,7 @@ const FooterComponent = () => {
         >
           <Grid item>
             <Box mb={3} textAlign="center">
-              <img src="/logo/footer_logo.svg" width={150} />
+              <img src="/logo/skinska-logo.avif" width={150} />
             </Box>
             <Typography
               className="address"
@@ -66,8 +66,17 @@ const FooterComponent = () => {
               textAlign="center"
               variant="body1"
             >
-              SF 201, Second Floor, Road Number 55, Opp. Peddamma gudi Entrance,
-              Jubilee Hills, Hyderabad - 500033
+              SKINSKA PHARMACEUTICA PRIVATE LIMITED
+            </Typography>
+            <Typography
+              className="address"
+              color=""
+              textAlign="center"
+              variant="body1"
+            >
+              {" "}
+              T-Hub Phase 2, Inorbit Mall Rd, Vittal Rao Nagar, Madhapur,
+              Hyderabad-500081, Telangana, India.
             </Typography>
           </Grid>
           <Grid item xs={12}>
@@ -96,6 +105,9 @@ const FooterComponent = () => {
             </Grid>
             <Grid item>
               <IconButton
+              onClick={() => {
+                handleSocialLinkNavigation(SOCIAL_LINKS.facebook);
+              }}
                 sx={(theme) => ({ color: theme.palette.common.white })}
               >
                 <AiFillFacebook />

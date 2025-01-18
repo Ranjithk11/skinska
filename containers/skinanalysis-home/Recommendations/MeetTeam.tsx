@@ -70,7 +70,7 @@ const MeetTeam = () => {
           <Grid item xs={12}>
             <Box mt={3}>
               <Typography textAlign="center" variant="h4">
-                Leaf Water Care Team
+                Skinska Care Team
               </Typography>
 
               {/* <Box mt={1}>
@@ -91,7 +91,7 @@ const MeetTeam = () => {
           <Grid item xs={12}>
             <Box mt={3}>
               <Typography textAlign="left" variant="body1">
-                At Leaf Water our dedicated team is driven by a commitment to
+                At Skinska our dedicated team is driven by a commitment to
                 exceptional skincare, our team consists of cosmetology doctors,
                 cosmetology consultant and technical experts who are dedicated
                 to providing you expert care designed and tailored to your

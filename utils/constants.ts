@@ -3,7 +3,7 @@ export const BOTTOM_NAVIGATION_SIZE = 56;
 export const BRAND_NAME = "Elite";
 export const drawerWidth = 220;
 export const mobileStepperHeight = 46.75;
-export const LOGO_URL = "https://i.ibb.co/0Ggbwfq/Group-360.png";
+export const LOGO_URL = "/logo/skinska-logo.avif";
 export const navgationMenus = [
   {
     category: "SPRAY GUN",
@@ -1155,9 +1155,10 @@ export const skinTypes = [
 ];
 
 export const SOCIAL_LINKS = {
-  youtube: "https://www.youtube.com/@leafwaterskincare",
+  youtube: "https://www.youtube.com/@SkinskaNaturals",
   insta:
-    "https://www.instagram.com/leafwater.skincare/?igsh=MTViMm9qY25tZHRhZQ%3D%3D",
+    "https://www.instagram.com/skinskanaturals/?igshid=MzRlODBiNWFlZA%3D%3D",
+    facebook:"https://www.facebook.com/SkinskaPharmaceutica",
 };
 
 export const routineVideos = {

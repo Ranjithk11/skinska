@@ -45,7 +45,7 @@ const QuestionLayout = ({ children }: QuestionLayoutProps) => {
       <AppBar color="primary" position="fixed" open={false}>
         <Toolbar>
           <Box mt={1} flexGrow={1}>
-            <img width={150} src="/logo/logo_gold_white.png" />
+            <img width={150} src="/logo/skinska-logo.avif" />
           </Box>
         </Toolbar>
       </AppBar>

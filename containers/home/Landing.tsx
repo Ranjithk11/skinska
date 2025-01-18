@@ -26,6 +26,7 @@ import { signIn } from "next-auth/react";
 import OtpForm from "../forms/OtpForm";
 import { grey } from "@mui/material/colors";
 import { useFetchLatestRecommendationsByFilterMutation } from "@/redux/api/analysisApi";
+import { APP_COLORS } from "@/theme/colors/colors";
 
 const StyledHomeLanding = styled(Container)(({ theme }) => ({
   height: `calc(100dvh)`,
@@ -206,9 +207,7 @@ const HomeLanding = () => {
 
   // handle skip
   const handleSkip = () => {
-    router.replace(
-      `${APP_ROUTES.SKIN_ANALYSIS}`
-    );
+    router.replace(`${APP_ROUTES.SKIN_ANALYSIS}`);
   };
 
   return (
@@ -263,7 +262,12 @@ const HomeLanding = () => {
                       variant="text"
                       color="inherit"
                       size="small"
-                      sx={{ borderRadius: 100, marginTop: 1, color: grey, textDecoration: 'underline' }}
+                      sx={{
+                        borderRadius: 100,
+                        marginTop: 1,
+                        color: grey,
+                        textDecoration: "underline",
+                      }}
                     >
                       Get My Report
                     </Button>
@@ -283,8 +287,21 @@ const HomeLanding = () => {
                   )}
                 </Grid>
               </Grid>
-              <Grid item mb={2} xs={12} sx={{ textAlign: "center", marginTop:2}}>
-                <img width={100} src="/logo/leafwater.png" alt="leaf-water" />
+              <Grid
+                item
+                mb={2}
+                xs={12}
+                sx={{ textAlign: "center", marginTop: 2 }}
+              >
+                <img
+                  width={200}
+                  src="/logo/skinska-logo.avif"
+                  style={{
+                    backgroundColor: APP_COLORS.PRIMARY_COLOR,
+                    borderRadius: "10px",
+                    padding: "10px",
+                  }}
+                />
               </Grid>
               <Grid item xs={12}>
                 <Typography color="secondary" fontWeight={900} variant="h5">

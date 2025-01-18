@@ -133,7 +133,7 @@ const HomeLayout = ({ children }: HomeLayoutProps) => {
             <MenuIcon />
           </IconButton>
           <Box flexGrow={1}>
-            <img width={150} src="/logo/logo_gold_white.png" />
+            <img width={150} src="/logo/skinska-logo.avif" />
           </Box>
           <Box paddingRight="15px">
             <IconButton
